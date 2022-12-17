@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Imagens que se adaptam em varios tipos de disposivos</p>
+    <picture>
+        <source media="(max-width: 720px)" srcset="img/imagem-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="img/imagem-m.png" type="image/png">
+        <img src="img/imagem-g.png" alt="Pequena">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="audio/audio.youtube.mp3" type="audio/mpeg" controls autoplay loop></audio>
+</body>
+</html>
