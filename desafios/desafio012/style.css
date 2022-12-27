@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: lightgrey;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    min-height: 8em;
+    color: white;
+    text-align: center;
+    padding-top: 1.5em;
+}
+header > p{
+    padding-top: 1em;
+}
+p > a{
+    text-decoration: none;
+    color: white;
+}
+p > a:hover{
+    text-decoration: underline;
+}
+.normal{
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2em;
+    line-height: 2em;
+}
+.imagem{
+    background-image: url('imagens/background001.jpg');
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    padding-left: 2em;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.357);
+    color: white;
+    width: 14em;
+    
+    line-height: 3em;
+}
+
+.imagem2{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 2em;
+    line-height: 2em;
+}
+
+.imagem2 > p{
+    background-color: rgba(98, 98, 98, 0.452);
+    width: 18em;
+}
