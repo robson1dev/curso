@@ -43,6 +43,9 @@ section{
     font-family: 'Sriracha', cursive;
     
 }
+section p{
+    padding-bottom: 1.5em;
+}
 section.normal{
     background-color: white;
     font-family: 'Sriracha', cursive;
