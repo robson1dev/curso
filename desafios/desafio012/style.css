@@ -5,19 +5,19 @@
     padding: 0px;
 }
 html, body{
-    background-color: lightgrey;
+    background-color: darkgray;
     min-height: 100vh;
 }
-
 header{
     background-color: black;
-    min-height: 8em;
     color: white;
+    padding-top: 3em;
+    font-variant: small-caps;
     text-align: center;
-    padding-top: 1.5em;
 }
 header > p{
-    padding-top: 1em;
+    color: white;
+    padding-bottom: 3em;
 }
 p > a{
     text-decoration: none;
@@ -26,38 +26,38 @@ p > a{
 p > a:hover{
     text-decoration: underline;
 }
-.normal{
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 1.8em;
+    line-height: 2.5em;
+}
+section.normal{
     background-color: white;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 2em;
-    line-height: 2em;
 }
-.imagem{
+
+section.imagem1{
     background-image: url('imagens/background001.jpg');
-    background-position: right;
+    background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
-    padding-left: 2em;
 }
-.imagem > p{
-    background-color: rgba(0, 0, 0, 0.357);
+section.imagem1 p, section.imagem2 p{
+    background-color: #35353594;
+    width: 20em;
+}
+
+section.imagem2{
+    background-image: url('imagens/background002.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
     color: white;
-    width: 14em;
-    
-    line-height: 3em;
+    text-align: center;
+}
+footer p{
+    padding: 1em;
 }
 
-.imagem2{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 2em;
-    line-height: 2em;
-}
-
-.imagem2 > p{
-    background-color: rgba(98, 98, 98, 0.452);
-    width: 18em;
-}
