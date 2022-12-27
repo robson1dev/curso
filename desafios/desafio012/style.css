@@ -61,8 +61,9 @@ section.normal > p{
 
 section.imagem1{
     background-image: url('imagens/background001.jpg');
-    background-position: center;
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .imagem1 p, section.imagem2 p{
     background-color: #35353594;
@@ -76,8 +77,9 @@ section.imagem1{
 
 section.imagem2{
     background-image: url('imagens/background002.jpg');
-    background-position: center;
+    background-position: right center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 footer{
