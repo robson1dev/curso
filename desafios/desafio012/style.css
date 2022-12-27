@@ -64,11 +64,11 @@ section.imagem1{
 .imagem1 p, section.imagem2 p{
     background-color: #35353594;
     color: white;
-    max-width: 18em;
+    display: inline-block;
     font-weight: normal;
     font-size: 3vw;
     line-height: 2em; 
-    padding-left: 1em;
+    padding: 1em;
 }
 
 section.imagem2{
