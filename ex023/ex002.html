@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+</head>
+<style>
+    body, html{
+        display: inline-block;
+        text-align: center;
+    
+    }
+    table{
+        border-collapse: collapse;
+        width: 500px;
+    }
+    thead, tfoot{
+        background-color: gray;
+        color: white;
+    }
+    td, th{
+        border: 1px solid rgb(0, 0, 0);
+        padding: 10px;
+    }
+
+    .num{
+        text-align: right;
+        background-color: rgb(233, 233, 233);
+    }
+    .texto{
+        text-align: left;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <img src="" alt="">
+                <th>Estados</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="texto">São Paulo</td>
+                <td class="num">87 348 223</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">87 348 223</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">87 348 223</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">87 348 223</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">55 389 382</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">55 389 382</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">55 389 382</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">55 389 382</td>
+            </tr>
+        </tbody>
+            
+            <tfoot>
+            <tr>
+                <strong>
+                    <th>Total</th>
+                    <th>207 750 291</th>
+                </strong>
+            </tr>
+            </tfoot>
+    </table>
+</body>
+</html>
