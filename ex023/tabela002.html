@@ -8,17 +8,24 @@
 </head>
 <style>
     body, html{
+        height: 180vh;
         display: inline-block;
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
     
     }
     table{
         border-collapse: collapse;
         width: 600px;
     }
-    thead, tfoot{
+    tbody > tr:nth-child(2n){
         background-color: gray;
+    }
+    thead{
+        background-color: rgb(0, 0, 0);
         color: white;
+        position: sticky;
+        top: -1px;
     }
     td, th{
         border: 1px solid rgb(0, 0, 0);
@@ -27,17 +34,21 @@
 
     .num{
         text-align: right;
-        background-color: rgb(233, 233, 233);
+    }
+    caption{
+        padding: 10px;
+        background-color: gray;
+        color: white;
     }
 </style>
 <body>
-    <h1>Tabela da População Brasileira</h1>
+    <h1>Tabela dos Estados Brasileiro</h1>
     <table>
+        <caption>Tabela dos Estados Brasileiros</caption>
         <thead>
-            <tr>
-                
-                <th>Estados</th>
-                <th>População</th>
+            <tr>  
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
 
@@ -80,8 +91,8 @@
             <tfoot>
             <tr>
                 <strong>
-                    <th>Total</th>
-                    <th>207 750 291</th>
+                    <th scope="row">Total</th>
+                    <td>207 750 291</th>
                 </strong>
             </tr>
             </tfoot>
