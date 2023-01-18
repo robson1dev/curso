@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            background-color: grey;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        h1{
+            background-image: linear-gradient(to right, blue, transparent);
+            margin: -10px;
+            border-radius: 5px 5px 0px 0px;
+        }
+        p{
+            padding: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Meu Primeiro Formulário</h1>
+        <form autocomplete="on">
+            <p><label for="enome">Nome:</label> <input type="text" name="nome" id="enome"></p>
+            <p><label for="esobrenome">Sobrenome:</label> <input type="text" name="esobrenome" id="esobrenome"></p>
+            
+            <p><label for="esenha">Digite sua Senha:</label> <input type="password" name="senha" id="esenha"></p>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
