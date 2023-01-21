@@ -11,7 +11,7 @@ html, body{
     height: 100vh;
 }
 body{
-    background: url('/imagens/fundo-madeira.jpg') no-repeat center center;
+    background: url('/imagens/fundo-madeira.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 main{
@@ -29,4 +29,11 @@ section#fone{
 
     background: url('/imagens/frame-iphone.png') no-repeat center center;
     background-size: cover;
+}
+#fone{
+    position: relative;
+    top: 13%;
+    left: 8%;
+    width: 263px;
+    height: 470px;
 }
