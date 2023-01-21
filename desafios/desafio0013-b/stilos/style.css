@@ -1,0 +1,19 @@
+@charset "UTF-08";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background: url('/desafios/desafio0013-b/imagens/fundo-madeira.jpg') no-repeat center center;
+    background-size: cover;
+}
+section#fone{
+    background: url('.imagens/');
+}
