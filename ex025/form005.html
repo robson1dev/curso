@@ -7,33 +7,36 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get">
-        <fieldset>
-            <legend>Sexo</legend>
-            <div>
-                <label for="ifem">Feminino</label>
-                <input type="radio" name="sexo" id="ifem">
-            </div>
-            <div>
-                <label for="imas">Masculino</label>
-                <input type="radio" name="sexo" id="imas" checked>
-            </div>
-            
-            
-        </fieldset>
+   <h1>Criando Formulario</h1>
+   <form action="cadastro.html" method="get">
 
-        <fieldset>
-            <legend>Esportes</legend>
-            
-            <input type="checkbox" name="ifute" id="ifute">
-            <label for="ifute">Futebol</label> <br>
+    <fieldset>
+        <legend>Futebol - Equipes</legend>
 
-            <input type="checkbox" name="ifuts" id="ifuts">
-            <label for="ifuts">Futsal</label>
+        <input type="radio" name="tit" id="cam" checked>
+        <label for="cam">Campeão</label> <br>
 
-        </fieldset>
+        <input type="radio" name="tit" id="vic">
+        <label for="vic">Vice-Campeão</label> <br>
 
+        <input type="checkbox" name="pal" id="ipal">
+        <label for="ipal">Palmeiras</label> <br>
 
+        <input type="checkbox" name="fla" id="ifla">
+        <label for="ifla">Flamengo</label>
+
+    </fieldset>
+
+    <p>
+        <input type="email" name="email" id="iemail" placeholder="digite seu e-mail" required>
+        <label for="iemail">Digite seu e-mail</label>
+    </p>
+       
+   
+   
+       <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+   
     </form>
 </body>
 </html>
