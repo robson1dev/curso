@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* Estilos para impressoras */
+
+body{
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tipos{
+    display: none;
+}
+
+article::after{
+    content: 'Conteudo do site Robson França';
+}
+img{
+    width: 100%;
+}
