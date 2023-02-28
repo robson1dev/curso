@@ -15,5 +15,5 @@ article::after{
     content: 'Conteudo do site Robson França';
 }
 img{
-    width: 100%;
+    display: none;
 }
