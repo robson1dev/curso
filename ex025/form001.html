@@ -9,26 +9,26 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        input{
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
 
     <h1>Meu Primeiro Formulario <sup>xd</sup></h1>
 
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="on">
+        
+        <label for="iprm">Digite seu nome</label>
+        <input type="text" name="prm" id="iprm" placeholder="Seu nome" required> <br>
 
-        <p> <label for="inome">Digite seu nome:</label>
-            <input type="text" name="nome" id="inome">
-        </p>
+        <label for="isgd">Sobrenome</label>
+        <input type="text" name="sgd" id="isgd" placeholder="seu sobrenome"> <br>
 
-        <p> <label for="isobrenome">Digite seu sobrenome:</label>
-            <input type="text" name="sobrenome" id="isobrenome">
-        </p>
-
-        <p> <label for="isenha">Digite sua Senha:</label>
-            <input type="password" name="senha" id="isenha">
-        </p>
         <input type="submit" value="Enviar">
+
     </form>
+        
 </body>
 </html>
