@@ -3,7 +3,7 @@
 /*Para dispositivos no modo Retrato*/
 
 body{
-    background: url('/imagens/cev-portrait.jpg');
+    background: url('/mq002/imgs/cev-portrait.jpg');
     background-position: center bottom;    
     
 }

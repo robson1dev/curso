@@ -3,7 +3,7 @@
 /*Para dispositivos no modo paisagem*/
 
 body{
-    background: url(/imagens/cev-landscape.jpg);
+    background: url('/mq002/imgs/cev-landscape.jpg');
     background-position: left bottom;
     
 }
