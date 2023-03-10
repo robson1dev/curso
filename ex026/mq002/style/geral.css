@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*Para dispositivos em geral*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    width: 100vw;
+}
+
+body{
+    background-color: #d87093;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-shadow: 1px 1px 1px green;
+}
