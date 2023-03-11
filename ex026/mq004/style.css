@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Cofigurações gerais*/
+/*Cofigurações gerais - Versão Mobila First*/
 
 *{
     margin: 0px;
@@ -27,7 +27,7 @@ h1{
     text-shadow: 1px 1px 1px #515151;
 }
 
-main{
+#main1{
     background-color: rgba(255, 255, 255, 0.702);
     width: 25em;
     margin: auto;
@@ -36,6 +36,32 @@ main{
     text-align: center;
 
 }
+
+#main2{
+    background-color: rgba(221, 160, 221, 0.66);
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 10px;
+}
+#main2 > a{
+    background-color: rgb(157, 113, 157);
+    color: #000000;
+    border: 1px solid #00000034;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#frame{
+    margin-top: 1em;
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
 
 #desktop{display: none;}
 #impressora{display: none;}
