@@ -79,3 +79,11 @@
     }
     
 }
+
+/*Media Para impressão*/
+
+@media print{
+    body{
+        display: none;
+    }
+}
