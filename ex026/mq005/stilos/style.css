@@ -20,7 +20,7 @@ header > h1{
 }
 #burguer{
     display: block;
-    background-color: #808080;
+    background-color: #000000;
     color: white;
     text-align: center;
     cursor: pointer;
