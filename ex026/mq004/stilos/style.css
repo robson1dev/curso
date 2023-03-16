@@ -14,7 +14,7 @@ html{
 }
 body{
     
-    background: #000000 url('/imagens/back-phone.jpg');
+    background: #000000 url(../imagens/back-phone.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -33,8 +33,10 @@ h1{
     margin: auto;
     margin-top: 1em;
     border-radius: 10px;
-    text-align: center;
 
+}
+#main1 > img{
+    margin: auto;
 }
 
 #main2{
@@ -61,9 +63,11 @@ h1{
     height: 80%;
     border-radius: 10px;
 }
-
-
-#desktop{display: none;}
-#impressora{display: none;}
+#phone{display: block;}
 #tablet{display: none;}
+#desktop{display: none;}
 #tv{display: none;}
+#impressora{display: none;}
+
+
+
