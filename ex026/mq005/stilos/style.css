@@ -10,6 +10,10 @@ body{
     background-color: rgb(90, 88, 88);
 }
 header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
     background-color: #aaaaaa;
     
 }
@@ -20,19 +24,16 @@ header > h1{
 }
 #burguer{
     display: block;
-    background-color: #000000;
+   
     color: white;
     text-align: center;
     cursor: pointer;
     padding: 10px;
-}
-
-#burguer:hover{
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    
 }
 nav{
     display: none;
+
 }
 
 ul{
@@ -40,25 +41,23 @@ ul{
 }
 
 ul > li{
-    
-    
     text-align: center;
 
 }
 
 li > a{
     display: block;
-    background-color: #808080;
+    background-color: #959393;
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
-    border-top: 2px solid #b7b3b3;
+    border-top: 2px solid #b8b4b4;
 }
 
 ul > li > a:hover{
     background-color: green;
+    transition-duration: 2s;
 }
-
 main{
     background-color: #ffffff;
 
