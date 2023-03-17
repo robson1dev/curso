@@ -44,21 +44,38 @@
         li:hover{
             background-color: palevioletred;
         }
+        li#home{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #icohome{
+            margin-top: -8px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Jesus</h1>
         <span id="burguer" title="menu" class="material-symbols-outlined" onclick="clickMenu()">
-            apps
+            menu
             </span>
         
     </header>
     <menu id="itens">
             <ul>
-                <li>Jesus</li>
-                <li>Cristo</li>
-                <li>Salva</li>
+                <li id="home"><span id="icohome" class="material-symbols-outlined">
+                    home
+                    </span>Home</li>
+                <li id="home"><span class="material-symbols-outlined">
+                    arrow_forward
+                    </span>Jesus</li>
+                <li id="home"><span class="material-symbols-outlined">
+                    arrow_forward
+                    </span>Cristo</li>
+                <li id="home"><span class="material-symbols-outlined">
+                    arrow_forward
+                    </span>Salva</li>
             </ul>
         </menu>
 
