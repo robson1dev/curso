@@ -9,8 +9,7 @@
     }
 
     nav#itens{
-        display: flex;
-        flex-direction: row;
+        display: block;
     }
     
 }

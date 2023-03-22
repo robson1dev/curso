@@ -22,7 +22,12 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
-#burguer{
+
+nav{
+    display: none;
+
+}
+nav#burguer{
     display: block;
    
     color: #000000;
@@ -31,10 +36,7 @@ header > h1{
     padding: 10px;
     
 }
-nav{
-    display: none;
 
-}
 
 ul{
     list-style-type: none;
