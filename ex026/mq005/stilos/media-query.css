@@ -8,8 +8,21 @@
         display: none;
     }
 
-    nav#itens{
-        display: block;
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    
+    ul{
+        display: flex;
+    }
+    ul > li > a{
+        margin: 5px;
+        border-radius: 5px;
+        border-top: none;
+    }
+
+    main{
+        width: 768px;
+    }
 }

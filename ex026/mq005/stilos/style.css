@@ -10,11 +10,8 @@ body{
     background-color: rgb(90, 88, 88);
 }
 header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
     background-color: #aaaaaa;
+    text-align: center;
     
 }
 
@@ -27,13 +24,11 @@ nav{
     display: none;
 
 }
-nav#burguer{
-    display: block;
-   
+#burguer{
+
     color: #000000;
-    text-align: center;
-    cursor: pointer;
     padding: 10px;
+    cursor: pointer;
     
 }
 
@@ -42,14 +37,8 @@ ul{
     list-style-type: none;
 }
 
-ul > li{
-    text-align: center;
-
-}
-
 li > a{
     display: block;
-    background-color: #959393;
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
@@ -57,7 +46,7 @@ li > a{
 }
 
 ul > li > a:hover{
-    background-color: green;
+    background-color: #959393;
     transition-duration: 2s;
 }
 main{
