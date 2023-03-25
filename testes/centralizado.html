@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Container-Centralizado</title>
     <style>
 
@@ -16,7 +17,7 @@
         html, body{
             width: 100vw;
             height: 100vh;
-            background-color: rgb(100, 37, 37);
+            background-color: #642525;
         }
 
         main{
@@ -34,7 +35,7 @@
             width: 250px;
             height: 500px;
             border-radius: 15px;
-            background-color: #ffffff;
+            background-color: #704c4c;
 
             transition: all 1s;
             overflow: hidden;
@@ -52,13 +53,85 @@
             background-repeat: no-repeat;
 
         }
+        div{
+            display: block;
+        }
 
         div#conteudo{
             padding: 10px;
         }
-        div{
-            display: block;
+
+        h1{
+            text-align: center;
+            font-weight: 700;
+            text-shadow: 0px 0px 5px #c9c9c993;
         }
+        
+        p{
+            margin-bottom: 5px;
+        }
+        div#conteudo p#lorem{
+            font-size: .8em;
+            color: #e2e2e2ce;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        form > p#input{
+            background-color: #642525;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+
+        #icon{
+            color: #fff;
+            padding-right: 1px;
+            cursor: pointer;
+        }
+
+        p > input{
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #b4b3b3;
+            outline: none;
+        }
+
+        p#entrar button{
+            background-color: #642525;
+            width: 100%;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            
+        }
+
+        p#esqueci button{
+            background-color: #6425257a;
+            width: 100%;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        p#entrar button:hover{
+            background-color: #6d1a1a;
+        }
+
+        p#esqueci button:hover{
+            background-color: #642525;
+
+        }
+
 
         @media screen and (min-width: 700px){
 
@@ -73,10 +146,10 @@
 
                 width: 70%;
                 height: 400px;
-                background-color: rgb(255, 0, 234);
                 display: flex;
 
             }
+
 
             div#img{
 
@@ -92,6 +165,7 @@
         @media screen and (min-width: 992px){
 
             section#container{
+                height: 70%;
                 display: flex;
                 flex-direction: row-reverse;
 
@@ -112,22 +186,31 @@
 
                 <div id="conteudo">
 
-                    <h1>CENTRALIZADO</h1>
+                    <h1>LOGIN</h1>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi neque exercitationem at.</p>
+                    <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi neque exercitationem at.</p>
 
                     <form action="cadastro.php" method="post">
 
-                        <p>
-                            <input type="text" name="name" id="iname">
+                        <p id="input">
+                            <label for="iname"><span class="material-symbols-outlined" id="icon">
+                                person
+                                </span></label>
+                            <input type="text" name="name" id="iname" placeholder="Seu e-mail" required minlength="8" maxlength="15">
                         </p>
-                        <p>
-                            <input type="password" name="ipass" id="iname">
+
+                        <p id="input">
+                            <label for="ipass"><span class="material-symbols-outlined" id="icon">
+                                vpn_key
+                                </span></label>
+                            <input type="password" name="ipass" id="ipass" placeholder="Sua senha" required minlength="8" maxlength="15">
                         </p>
-                        <p>
+
+                        <p id="entrar">
                             <button>ENTRAR</button>
                         </p>
-                        <p>
+
+                        <p id="esqueci">
                             <button>ESQUECI A SENHA</button>
                         </p>
 
