@@ -71,7 +71,7 @@
 
             section#container{
 
-                width: 95%;
+                width: 70%;
                 height: 400px;
                 background-color: rgb(255, 0, 234);
                 display: flex;
@@ -82,10 +82,20 @@
 
                 height: 100%;
                 width: 90%;
-                background-position: left top;
+                background-size: cover;
+                background-position: center;
                 
             }
             
+        }
+
+        @media screen and (min-width: 992px){
+
+            section#container{
+                display: flex;
+                flex-direction: row-reverse;
+
+        }
         }
 
     </style>
